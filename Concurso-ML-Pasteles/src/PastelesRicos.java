@@ -27,6 +27,11 @@ public class PastelesRicos {
 	 */
 	public static void main(String[] args) {
 
+		/*
+		 * Lo que este código hace básicamente es calcular todas las combinaciones posibles
+		 * de pasteles e ir descartanto todas aquellas que no son válidas o que no cumplen con la
+		 * consigna de "pastel rico" para de esta forma conseguir el total de pasteles ricos.
+		 */
 		
 		for(Integer a=1; a<=cantidadIngredientes; a++) {
 			recursiva(a.toString());
