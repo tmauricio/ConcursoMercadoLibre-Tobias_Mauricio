@@ -9,7 +9,6 @@ import java.util.Set;
  */
 public class PastelesRicos {
  
-	public static Integer cantPastelesRicos = 0;
 	public static final Integer cantidadIngredientes = 4;
 	public static Set<String> resultados = new HashSet<String>();
 	public static final String DULCE = "D";
@@ -178,8 +177,6 @@ public class PastelesRicos {
 				break;
 			}
 		}
-		
-			
 		
 		return resultado;
 	}
